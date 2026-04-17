@@ -41,7 +41,7 @@ with:
 ```
 GOOGLE_API_KEY=AIzaSy...your_actual_key...
 ```
-Save the file. **Do not share this file or push it to GitHub.**
+
 
 ### STEP 3 — Create a Virtual Environment (Recommended)
 ```bash

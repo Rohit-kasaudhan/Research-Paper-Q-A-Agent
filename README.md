@@ -15,8 +15,7 @@ A conversational agent that answers questions about AI/ML research papers using:
 research_paper_qa/
 ├── agent.py                   ← Core agent module (LangGraph + ChromaDB)
 ├── app.py                     ← Streamlit UI (run this to launch the app)
-├── day13_capstone.ipynb       ← Completed Jupyter notebook
-├── generate_documentation.py  ← Generates the submission PDF
+├── capstone.ipynb             ← Completed Jupyter notebook
 ├── requirements.txt           ← Python dependencies
 ├── .env                       ← API keys (YOU MUST FILL THIS IN)
 ├── .gitignore                 ← Excludes .env and __pycache__
@@ -70,16 +69,9 @@ The app opens automatically at `http://localhost:8501`.
 
 ### STEP 6 — Run the Jupyter Notebook
 ```bash
-jupyter notebook day13_capstone.ipynb
+jupyter notebook capstone.ipynb
 ```
 Then run all cells top to bottom (Kernel → Restart & Run All).
-
-### STEP 7 — Generate the Submission PDF
-Open `generate_documentation.py`, fill in your Name/Roll/Batch at the top, then:
-```bash
-python generate_documentation.py
-```
-This creates `Project_Documentation.pdf`.
 
 ---
 

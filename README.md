@@ -89,19 +89,7 @@ Then run all cells top to bottom (Kernel → Restart & Run All).
 
 ---
 
-## 📦 Submission Checklist
 
-- [ ] `.env` filled in with your Gemini API key
-- [ ] `day13_capstone.ipynb` — all cells run without errors
-- [ ] Part 8 Summary filled in (name, roll number, batch, RAGAS scores)
-- [ ] `app.py` launches and chat works
-- [ ] Conversation memory tested (3+ follow-up questions)
-- [ ] `Project_Documentation.pdf` generated with screenshots added
-- [ ] All files zipped into ONE ZIP folder
-- [ ] GitHub repo created and link ready
-- [ ] Google Form submitted before April 21, 2026 11:59 PM
-
----
 
 ## ❓ Troubleshooting
 

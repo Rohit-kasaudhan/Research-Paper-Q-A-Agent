@@ -1,0 +1,39 @@
+# ============================================================
+# requirements.txt — Research Paper Q&A Agent
+# ============================================================
+# STEP 2: Install all dependencies by running:
+#   pip install -r requirements.txt
+#
+# Recommended: use a virtual environment first:
+#   python -m venv venv
+#   source venv/bin/activate        (Mac/Linux)
+#   venv\Scripts\activate           (Windows)
+#   pip install -r requirements.txt
+# ============================================================
+
+# ── Core LLM & Agent Framework ──────────────────────────────
+langgraph>=0.2.0
+langchain-core>=0.3.0
+langchain-google-genai>=2.0.0   # Gemini integration
+
+# ── Vector Store & Embeddings ───────────────────────────────
+chromadb>=0.5.0
+sentence-transformers>=3.0.0    # local embeddings (no API key needed)
+
+# ── PDF Processing (upload your own papers) ─────────────────
+pypdf>=4.0.0
+
+# ── Web Search Tool ─────────────────────────────────────────
+duckduckgo-search>=6.0.0        # free, no API key needed
+
+# ── Evaluation ──────────────────────────────────────────────
+# ragas>=0.2.0                  # OPTIONAL — uncomment if you want RAGAS scores
+# datasets>=2.0.0               # OPTIONAL — required by ragas
+
+# ── Utilities ───────────────────────────────────────────────
+python-dotenv>=1.0.0
+streamlit>=1.35.0
+requests>=2.31.0
+
+# ── Hugging Face (optional, for HF-hosted models) ───────────
+# huggingface_hub>=0.23.0       # OPTIONAL — uncomment if you use HF models
